@@ -17,7 +17,7 @@ const Navbar = () => {
          
             </ul>
           </div>
-          <Link to='/home'><a className="btn btn-ghost normal-case text-xl">Rifat's portfolio</a>
+          <Link to='/home'><a className="btn btn-ghost normal-case text-xl"> Ahmed Rifat</a>
 </Link>
 
         </div>
