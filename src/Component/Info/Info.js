@@ -12,7 +12,7 @@ const Info = () => {
     return (
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
             <Infocard cardInfo= {socialInfo}bgClass="bg-gradient-to-r from-cyan-500 to-blue-500" cardTitle='Social' img={clock}></Infocard>
-            <Infocard cardInfo={cardInfoData} bgClass="bg-neutral" cardTitle='location' img={marker}></Infocard>
+            <Infocard cardInfo={cardInfoData} bgClass="bg-gradient-to-r from-cyan-500 to-blue-500" cardTitle='location' img={marker}></Infocard>
             <Infocard cardInfo= {phoneInfo} bgClass="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" cardTitle='Contact' img={phone}></Infocard>
         </div>
     );
