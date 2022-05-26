@@ -5,8 +5,8 @@ const Footer = () => {
         <div>
             <footer class="footer p-10 bg-neutral text-neutral-content mt-12 mb-4">
                 <div>
-                    <img className='w-24 h-24' src="https://brand.house/wp-content/uploads/2021/02/Linkedin.png" alt="" />
-                    <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+                    <img className='w-24 h-24' src="https://img.freepik.com/free-vector/illustration-user-avatar-icon_53876-5907.jpg?t=st=1652267371~exp=1652267971~hmac=cc625a69abc047382581465b6aa4a80b6cb48892c2329ee34fd456d1bb5f8545&w=740" alt="" />
+                    <p>Ahmed Rifat<br/> Portfolio on developing process</p>
                 </div> 
                 <div>
                     <span class="footer-title">Social</span> 

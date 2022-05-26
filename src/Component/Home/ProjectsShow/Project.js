@@ -2,7 +2,8 @@ import React from 'react';
 
 const Project = ({project}) => {
     return (
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div className='mt-20'>
+            <div class="card w-96 bg-base-100 shadow-xl">
             <figure>
                 <img  src={project.img} alt="website" class="rounded-xl" />
             </figure>
@@ -11,8 +12,10 @@ const Project = ({project}) => {
                 <p>{project.details}</p>
                 <div class="card-actions">
                 <a href={project.website}><button class="btn btn-primary">Visit Website</button></a>
+                <a href={project.github}><button class="btn btn-primary">GitHub Link</button></a>
                 </div>
             </div>
+        </div>
         </div>
     );
 };
