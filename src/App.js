@@ -4,6 +4,7 @@ import Home from './Component/Home/Home';
 import Navbar from './Component/Navbar/Navbar';
 import About from './Component/About/About';
 import 'react-toastify/dist/ReactToastify.css';
+import Contact from './Component/Contact/Contact';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                <Route path='/' element={<Home></Home>}></Route>
                <Route path='/home' element={<Home></Home>}></Route>
                <Route path='/about' element={<About></About>}></Route>
+               <Route path='/contact' element={<Contact></Contact>}></Route>
                
              </Routes>
              

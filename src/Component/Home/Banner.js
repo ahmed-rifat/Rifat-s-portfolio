@@ -1,11 +1,11 @@
 import React from 'react';
-import chair from '../../assets/images/chair.png'
+import rifat from '../../assets/images/rifat.jpg'
 
 const Banner = () => {
     return (
         <div class="hero min-h-screen">
   <div class="hero-content flex-col lg:flex-row">
-    <img src={chair} class="max-w-sm rounded-lg shadow-2xl" />
+    <img src={rifat} class="max-w-sm rounded-lg shadow-2xl" />
     <div>
       <h1 class="text-5xl font-bold">Hi, I'm Ahmed Rifat</h1>
       <p class="py-6">I Completed graduation in computer science and engineering from North South University.I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>

@@ -5,7 +5,7 @@ const Project = ({project}) => {
         <div className='mt-20'>
             <div class="card w-96 bg-base-100 shadow-xl">
             <figure>
-                <img  src={project.img} alt="website" class="rounded-xl" />
+                <img  src={project.img} alt="website" class="rounded-xl h-60 w-60" />
             </figure>
             <div class="card-body items-center text-center">
                 <h2 class="card-title">{project.name}</h2>
